@@ -1,4 +1,3 @@
-
 # Docker hub Automated CircleCI Deployments
 
 [![CircleCI](https://circleci.com/gh/mwaz/dockerhub-automated-circleci-deployments.svg?style=svg)](https://circleci.com/gh/mwaz/dockerhub-automated-circleci-deployments)
@@ -14,7 +13,7 @@ A Python API project setup for the purpose of demonstrating how to deploy a buil
 run the following command on your terminal to clone the repository:
 
 ```bash
-git clone git@github.com:mwaz/dockerhub-automated-circleci-deployments.git
+git clone https://github.com/CIRCLECI-GWP/dockerhub-automated-circleci-deployments.git
 
 cd dockerhub-automated-circleci-deployments
 ```
@@ -30,14 +29,15 @@ pip3 install -r requirements.txt
 ## Running tests
 
 ```bash
-pytest 
+pytest
 ```
+
 ## Details
 
 This repo is built following a tutorial published on CircleCI blog under the CircleCI Guest Writer Program.
 
--   Blog post: [Dockerizing a Python App and Automating Deployments to Docker Hub][blog]
--   Author's GitHub profile: [Waweru Mwaura][author]
+- Blog post: [Dockerizing a Python App and Automating Deployments to Docker Hub][blog]
+- Author's GitHub profile: [Waweru Mwaura][author]
 
 ### About CircleCI Guest Writer Program
 
